@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f1;
+}
+
+.comparison-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    border: 15px solid #34495e;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+.content-box-example {
+    box-sizing: content-box;
+}
+
+.border-box-example {
+    box-sizing: border-box;
+}
